@@ -1,0 +1,13 @@
+##
+For exploit write this command.
+Exploited command: curl -H "Content-Length:0" -X POST https://www.███████.mil/██████████ 
+Denied command: curl -X GET https://www.███████.mil/██████
+#Questions:
+Why you need "Content-Length:0" header?
+Answer: If you dont use this headersometimes you can get 411 error code.
+Can i reproduce this in burpsuite?
+Answer: Yes, you can.But "curl" faster.
+How you did bypass?
+Answer:With POST method and Content-Length header.If you send GET or dont use that header you cant bypass.
+
+##
